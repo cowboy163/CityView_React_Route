@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+h1 {
+    color: white;
+    -webkit-text-stroke: 1px black;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.pageContainer {
+    position: relative;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.smallImgLibrary {
+    position: absolute;
+    bottom: 10vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.smallImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.smallImg:hover{
+    outline: 1px red solid
+}
+
+.bgImg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -999;
+}
